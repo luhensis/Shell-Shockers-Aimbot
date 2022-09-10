@@ -18,3 +18,5 @@ Shows a line between you and the enemies. Good for keeping an eye on players beh
 4. [L] to toggle aimbot on right mouse button hold.
 
 NOTE: Everything is enabled by default except the last one.
+
+https://www.youtube.com/watch?v=0UbT0pbB4Rs
