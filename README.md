@@ -4,6 +4,13 @@ Locks aim to the nearest player in shellshock.io. Comes with an ESP too. Press B
 What's Aimbot:
 Locks the aim to the nearest player. Doesn't check if the player is behind the wall so it can make movements hard. Also doesn't auto-shoot. You have to sight and shoot yourself.
 
+## How To Use:
+
+1. Download & Install TamperMonkey Extension
+2. Upload the script to tampermonkey
+3. Go to shellshockers.io
+4. HAVE FUN!
+
 ## What's ESP?
 
 Shows players behind walls.
