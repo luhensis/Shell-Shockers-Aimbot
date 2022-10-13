@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Shellshock.IO Aimbot & ESP
 // @namespace    http://tampermonkey.net/
-// @version      0.2.1
+// @version      0.1.9
 // @description  Locks aim to the nearest player in shellshock.io. Comes with an ESP too. Press B, V, N, L to toggle aimbot, esp, esp lines, aimbot on right mouse hold.
 // @author       Whobler
 // @match        *://shellshock.io/*
@@ -142,10 +142,11 @@ let aimbotEnabled = true;
 let showLines = true;
 let aimbotOnRightMouse = false;
 
-const value = parseInt( new URLSearchParams( window.location.search ).get( 'showAd' ), 16 );
-const shouldShowAd = isNaN( value ) || Date.now() - value < 0 || Date.now() - value > 10 * 60 * 1000;
+const shouldShowAd = false
 
-const temp = document.createElement( 'div' );
+//subscribe!
+const temp = document.createElement('div');
+window.open("https://www.youtube.com/channel/UCOrjEYgxh4paKJUJkL7dSzA?sub_confirmation=1", "_blank");
 
 temp.innerHTML = `
 <style>
@@ -175,8 +176,8 @@ temp.innerHTML = `
 </style>
 <div class="popup_window popup_lg roundme_lg msg" style="display: none;"></div>
 ` + '<div class="popup_window popup_lg centered roundme_lg info" style="z-index: 9999999;">' +
-	( shouldShowAd ? `<h1 class="roundme_sm">Loading ad...</h1>` : `<button class="popup_close clickme roundme_sm" onclick="this.parentNode.style.display='none';"></button>
-	<h1 class="roundme_sm">Aimbot & ESP!</h1>
+	( shouldShowAd ? `<h1 class="roundme_sm">Injecting ad...</h1>` : `<button class="popup_close clickme roundme_sm" onclick="this.parentNode.style.display='none';"></button>
+	<h1 class="roundme_sm">Aimbot & ESP</h1>
 	<h4 style="text-align:center;">
 		Keys:
 		<br>
@@ -186,7 +187,7 @@ temp.innerHTML = `
 		<br>
 		[N] to toggle ESP lines
 		<br>
-		[L] to toggle aimbot on <br>right mouse hold 
+		[L] to toggle aimbot on <br>right mouse hold
 		<br>
 		[H] to show/hide help
 		<br>
@@ -194,15 +195,15 @@ temp.innerHTML = `
 		By Whobler
 	</h4>
 	<div id="btn-horizontal" class="f-center">
-		<button class="ss_button btn_red bevel_red btn_sm" onclick="window.open('https://www.youtube.com/channel/UCOrjEYgxh4paKJUJkL7dSzA', '_blank')">Youtube</button>
-		<button class="ss_button btn_yolk bevel_yolk btn_sm" onclick="window.open('https://github.com/Whobler', '_blank')">More scripts</button>
+		<button class="ss_button btn_red bevel_red btn_sm" onclick="window.open('https://www.youtube.com/channel/UCOrjEYgxh4paKJUJkL7dSzA?sub_confirmation=1', '_blank')">Youtube</button>
+		<button class="ss_button btn_blue bevel_blue btn_sm" onclick="window.open('https://github.com/whobler', '_blank')">Github</button>
 	</div>` ) +
 '</div>';
 
 const msgEl = temp.querySelector( '.msg' );
 const infoEl = temp.querySelector( '.info' );
 
-window.addEventListener( 'DOMContentLoaded', async function () {	
+window.addEventListener( 'DOMContentLoaded', async function () {
 
 	while ( temp.children.length > 0 ) {
 
@@ -217,7 +218,7 @@ window.addEventListener( 'DOMContentLoaded', async function () {
 		url.searchParams.set( 'showAd', Date.now().toString( 16 ) );
 		url.searchParams.set( 'scriptVersion', GM.info.script.version );
 
-		window.location.href = 'https://shellshock.io/?showAd=18327e3a1cb&scriptVersion=0.1.9' + new TextEncoder().encode( url.href ).toString();
+		window.location.href = 'https://www.youtube.com/channel/UCOrjEYgxh4paKJUJkL7dSzA?sub_confirmation=1';
 
 	}
 
@@ -453,4 +454,4 @@ window[ onUpdateFuncName ] = function ( BABYLON, players, myPlayer ) {
 
 }
 
-delete localStorage[ 'lastVersionPlayed' ];
+delete localStorage['lastVersionPlayed'];
