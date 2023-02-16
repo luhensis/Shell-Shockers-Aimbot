@@ -1,6 +1,8 @@
 # Shell Shockers Aimbot
 Locks aim to the nearest player in shellshock.io. Comes with an ESP too. Press B, V, N, L to toggle aimbot, esp, esp lines, aimbot on right mouse hold.
 
+## You need to request access to the Development Server at https://cors-anywhere.herokuapp.com/
+
 What's Aimbot:
 Locks the aim to the nearest player. Doesn't check if the player is behind the wall so it can make movements hard. Also doesn't auto-shoot. You have to sight and shoot yourself.
 
