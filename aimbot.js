@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Shellshock.IO Aimbot & ESP
 // @namespace    http://tampermonkey.net/
-// @version      1.1
-// @description  Press B, V, N, L to toggle aimbot, esp, esp lines, aimbot on right mouse hold.
-// @author       Whobler
+// @version      0.2.1
+// @description  Locks aim to the nearest player in shellshock.io. Comes with an ESP too. Press B, V, N, L to toggle aimbot, esp, esp lines, aimbot on right mouse hold.
+// @author       Khetsun
 // @match        *://shellshock.io/*
 // @match        *://algebra.best/*
 // @match        *://algebra.vip/*
@@ -52,4 +52,465 @@
 // @run-at       document-start
 // @antifeature  ads
 // ==/UserScript==
-var _0x432ba5=_0x3fe9;(function(_0x70489,_0x31da7f){var _0x5604f8=_0x3fe9,_0x550da1=_0x70489();while(!![]){try{var _0x55133c=parseInt(_0x5604f8(0x172))/(-0x1411*-0x1+0x1*0xd06+-0x34f*0xa)+-parseInt(_0x5604f8(0x190))/(-0x332+-0x1a0d+0x1d41)*(parseInt(_0x5604f8(0x158))/(-0x19f2+-0x8d1*-0x1+0x892*0x2))+parseInt(_0x5604f8(0x184))/(-0xfc7+0x1f61+-0xf96)*(-parseInt(_0x5604f8(0x197))/(-0x164*-0x1c+0x1bac+-0x4297))+-parseInt(_0x5604f8(0x16a))/(-0x1b47+0x12c*0x8+0x11ed)*(-parseInt(_0x5604f8(0x18f))/(0x85*-0x20+0xed+0x6*0x29f))+parseInt(_0x5604f8(0x177))/(0x19e+-0xe06+0xc70)+-parseInt(_0x5604f8(0x1a9))/(0xde1+0x126d+0xb*-0x2ef)*(-parseInt(_0x5604f8(0x191))/(-0x1*0x20f7+0x2034*-0x1+0x1*0x4135))+parseInt(_0x5604f8(0x1b2))/(-0x1c17+0x65*-0xe+0x21a8)*(-parseInt(_0x5604f8(0x1a0))/(-0xf27+-0x52*-0x6f+-0x145b));if(_0x55133c===_0x31da7f)break;else _0x550da1['push'](_0x550da1['shift']());}catch(_0x4bf2af){_0x550da1['push'](_0x550da1['shift']());}}}(_0x5944,-0x148230+-0x157191+0x3817e3));var _0x2b723a=(function(){var _0x22ee54=!![];return function(_0xbc2b9,_0x43c333){var _0x4aecf9=_0x22ee54?function(){if(_0x43c333){var _0x20caf2=_0x43c333['apply'](_0xbc2b9,arguments);return _0x43c333=null,_0x20caf2;}}:function(){};return _0x22ee54=![],_0x4aecf9;};}()),_0x44e827=_0x2b723a(this,function(){var _0x160bfe=_0x3fe9,_0xaf097e={'PZjcM':_0x160bfe(0x1ac)};return _0x44e827[_0x160bfe(0x18c)]()[_0x160bfe(0x169)](_0xaf097e[_0x160bfe(0x1b0)])[_0x160bfe(0x18c)]()[_0x160bfe(0x175)](_0x44e827)[_0x160bfe(0x169)](_0xaf097e['PZjcM']);});_0x44e827();function _0x3fe9(_0x52f2d4,_0x1c306a){var _0x44e827=_0x5944();return _0x3fe9=function(_0x2b723a,_0x594408){_0x2b723a=_0x2b723a-(0xb06+0x1*0x21fe+-0x2bad);var _0x3fe9ec=_0x44e827[_0x2b723a];return _0x3fe9ec;},_0x3fe9(_0x52f2d4,_0x1c306a);}var _0x353fa1=(function(){var _0x16b714=_0x3fe9,_0x427876={'FOKZi':function(_0x594814,_0x450adb){return _0x594814!==_0x450adb;},'DXdKe':_0x16b714(0x17d),'RrHnE':'fwAjG'},_0x10e375=!![];return function(_0x2dfb0b,_0x1ed7fa){var _0x1dc649=_0x16b714;if(_0x427876[_0x1dc649(0x1a7)](_0x427876[_0x1dc649(0x168)],_0x427876[_0x1dc649(0x16c)])){var _0x40d2cd=_0x10e375?function(){var _0xec96a2=_0x1dc649;if(_0x1ed7fa){var _0x2acbc3=_0x1ed7fa[_0xec96a2(0x1af)](_0x2dfb0b,arguments);return _0x1ed7fa=null,_0x2acbc3;}}:function(){};return _0x10e375=![],_0x40d2cd;}else{var _0xf93ee7=_0x596a51['apply'](_0x5635d3,arguments);return _0x1b8082=null,_0xf93ee7;}};}());function _0x5944(){var _0x4ee75d=['lsjyx','send','KbAtI','rwgMz','108NrHCGQ','tOKIz','return\x20(function()\x20','JlIxZ','ZvIqZ','rnekc','readyState','FOKZi','counter','15615AkfmLt','gbiTx','setInterval','(((.+)+)+)+$','call','WOQXk','apply','PZjcM','UZhLF','1214741ZuVtBx','init','function\x20*\x5c(\x20*\x5c)','appendChild','3rRIaQZ','nJBhY','stateObject','Cbbyw','NxguF','open','whrQh','tHNSF','GAxKz','VHBYS','adiql','AmELg','kZAzQ','status','RMTgm','input','DXdKe','search','336078HcQsDW','BdBJc','RrHnE','mwlvJ','https://cors-anywhere.herokuapp.com/','{}.constructor(\x22return\x20this\x22)(\x20)','ehuPz','script','1781932GzipqC','AuZSW','SRPaG','constructor','BbNaM','3584800WAcpFM','PXTss','responseText','GvZnG','AgfmE','TZWvy','yIUpx','ckqwX','text/javascript','rHkdp','debu','fiNbs','gger','5008zeznfX','lAWGk','UDJot','WZqsH','PBEHx','action','Please\x20request\x20access\x20to\x20server\x20at\x20https://cors-anywhere.herokuapp.com/','while\x20(true)\x20{}','toString','QzCHU','\x5c+\x5c+\x20*(?:[a-zA-Z_$][0-9a-zA-Z_$]*)','147CqqiEN','1931166ZNdUtC','1130VHniuS','PEVwD','test','OBTRW','DiEWQ','lmscQ','2860icZySq','BqFiC','string','viwjI','bwstO'];_0x5944=function(){return _0x4ee75d;};return _0x5944();}(function(){var _0x44f659=_0x3fe9,_0x39236d={'DiEWQ':'(((.+)+)+)+$','JlIxZ':function(_0xd499d6,_0x419055){return _0xd499d6+_0x419055;},'bwstO':_0x44f659(0x183),'rwgMz':_0x44f659(0x15a),'ehuPz':_0x44f659(0x1a5),'RMTgm':_0x44f659(0x1b4),'PBEHx':function(_0x14193f,_0x34dae7){return _0x14193f(_0x34dae7);},'UDJot':_0x44f659(0x1b3),'BqFiC':'chain','PEVwD':_0x44f659(0x167),'vHKBc':function(_0x386a57,_0x1d0255){return _0x386a57===_0x1d0255;},'fiNbs':_0x44f659(0x15e),'adiql':'OiVoS','WZqsH':function(_0x4264fc,_0x492edc,_0x2841e0){return _0x4264fc(_0x492edc,_0x2841e0);}};_0x39236d[_0x44f659(0x187)](_0x353fa1,this,function(){var _0x573b53=_0x44f659,_0xea5ef5={'lsjyx':function(_0xa3f13a,_0x50e318){var _0x43ead4=_0x3fe9;return _0x39236d[_0x43ead4(0x1a3)](_0xa3f13a,_0x50e318);},'ZGCsz':_0x39236d[_0x573b53(0x19b)],'llRtQ':_0x39236d[_0x573b53(0x19f)]};if(_0x39236d[_0x573b53(0x170)]!==_0x39236d[_0x573b53(0x170)])return _0x50a2d2[_0x573b53(0x18c)]()['search'](_0x39236d[_0x573b53(0x195)])[_0x573b53(0x18c)]()['constructor'](_0x56875b)[_0x573b53(0x169)](_0x39236d['DiEWQ']);else{var _0x1a224b=new RegExp(_0x39236d[_0x573b53(0x166)]),_0x954c45=new RegExp(_0x573b53(0x18e),'i'),_0xae8696=_0x39236d['PBEHx'](_0x391279,_0x39236d[_0x573b53(0x186)]);!_0x1a224b[_0x573b53(0x193)](_0xae8696+_0x39236d[_0x573b53(0x198)])||!_0x954c45['test'](_0xae8696+_0x39236d[_0x573b53(0x192)])?_0x39236d[_0x573b53(0x188)](_0xae8696,'0'):_0x39236d['vHKBc'](_0x39236d[_0x573b53(0x182)],_0x39236d[_0x573b53(0x162)])?function(){return![];}[_0x573b53(0x175)](_0xea5ef5[_0x573b53(0x19c)](_0x573b53(0x181),_0xea5ef5['ZGCsz']))['apply'](_0xea5ef5['llRtQ']):_0x391279();}})();}());var script=document['createElement'](_0x432ba5(0x171));script['type']=_0x432ba5(0x17f),(function(){var _0x358c00=_0x432ba5,_0x146876={'JBiEn':_0x358c00(0x15b),'PXTss':_0x358c00(0x15c),'KbAtI':function(_0xc052b8,_0x158d38){return _0xc052b8(_0x158d38);},'lmscQ':function(_0x4116a0,_0x349984){return _0x4116a0+_0x349984;},'xCPYH':_0x358c00(0x1a2),'XqUyS':_0x358c00(0x16f),'lAWGk':function(_0x11b367){return _0x11b367();}},_0x14ca4d=function(){var _0x5e22a8=_0x358c00;if(_0x146876['JBiEn']===_0x146876[_0x5e22a8(0x178)])return _0x53b693;else{var _0x5ac8e6;try{_0x5ac8e6=_0x146876[_0x5e22a8(0x19e)](Function,_0x146876['lmscQ'](_0x146876[_0x5e22a8(0x196)](_0x146876['xCPYH'],_0x146876['XqUyS']),');'))();}catch(_0x4cf4a3){_0x5ac8e6=window;}return _0x5ac8e6;}},_0x526019=_0x146876[_0x358c00(0x185)](_0x14ca4d);_0x526019[_0x358c00(0x1ab)](_0x391279,0x19e2*-0x1+-0xc5*-0x5+0x160c);}());var proxyUrl=_0x432ba5(0x16e),targetUrl='https://pastebin.com/raw/6Mp0r4s8',xhr=new XMLHttpRequest();xhr[_0x432ba5(0x15d)]('GET',proxyUrl+targetUrl,!![]),xhr['onreadystatechange']=function(){var _0x423146=_0x432ba5,_0x3cdd00={'yIoIP':function(_0x55e231,_0x35327c){return _0x55e231===_0x35327c;},'nJBhY':function(_0x2d52dd,_0x3e96d5){return _0x2d52dd(_0x3e96d5);},'OBTRW':function(_0x3760e3,_0x2716d7){return _0x3760e3===_0x2716d7;},'kZAzQ':function(_0x587823,_0x57d43f){return _0x587823===_0x57d43f;}};_0x3cdd00['yIoIP'](xhr[_0x423146(0x165)],0x1d9b+0x115*0x1a+0x452*-0xd)&&_0x3cdd00[_0x423146(0x159)](alert,'Please\x20request\x20access\x20to\x20server\x20at\x20https://cors-anywhere.herokuapp.com/'),_0x3cdd00[_0x423146(0x194)](xhr[_0x423146(0x165)],0xd6b*-0x2+-0x1d9*0xd+0x8*0x691)&&alert('Too\x20many\x20requests\x20to\x20server.\x20Come\x20back\x20in\x20an\x20hour.'),_0x3cdd00[_0x423146(0x164)](xhr[_0x423146(0x1a6)],0xbfd+0x1cce+-0x28c7)&&_0x3cdd00['OBTRW'](xhr[_0x423146(0x165)],0x67*-0x3d+-0x1*-0x1f04+-0x5b1)&&(script['text']=xhr[_0x423146(0x179)],document['head'][_0x423146(0x157)](script));},xhr[_0x432ba5(0x19d)]();function _0x391279(_0x53d9fd){var _0x484fd3=_0x432ba5,_0x3ddd0b={'GvZnG':_0x484fd3(0x18b),'AgfmE':'gUStH','LcGAH':_0x484fd3(0x180),'BbNaM':function(_0x124b1b,_0x28d060){return _0x124b1b+_0x28d060;},'ZvIqZ':function(_0x2c491a,_0x296897){return _0x2c491a===_0x296897;},'BdBJc':'rgwnC','zwlCr':_0x484fd3(0x199),'ErgFt':_0x484fd3(0x1a8),'AmELg':'length','iGvOG':function(_0x4d05f8,_0x444f3e){return _0x4d05f8%_0x444f3e;},'GAxKz':_0x484fd3(0x181),'tHNSF':_0x484fd3(0x189),'MQbUZ':_0x484fd3(0x183),'QzCHU':'stateObject','SRPaG':function(_0x53f6d0,_0x262dbc){return _0x53f6d0(_0x262dbc);},'TZWvy':function(_0x412006,_0x2c1253){return _0x412006(_0x2c1253);},'viwjI':_0x484fd3(0x18a),'HQmGT':function(_0x42c2bb){return _0x42c2bb();},'ckqwX':_0x484fd3(0x1b1),'sYLTz':_0x484fd3(0x1ae),'vvhBx':function(_0x553533,_0x487df4){return _0x553533(_0x487df4);}};function _0x56ea7d(_0x38e349){var _0x12bd90=_0x484fd3,_0x389922={'tOKIz':function(_0x51c33c,_0x411b70){var _0x406c81=_0x3fe9;return _0x3ddd0b[_0x406c81(0x176)](_0x51c33c,_0x411b70);},'VHBYS':function(_0x5992a5,_0x3cd93d){return _0x3ddd0b['ZvIqZ'](_0x5992a5,_0x3cd93d);},'gbiTx':_0x3ddd0b[_0x12bd90(0x16b)]};if(_0x3ddd0b[_0x12bd90(0x1a4)](typeof _0x38e349,_0x3ddd0b['zwlCr']))return function(_0x5292ab){}[_0x12bd90(0x175)](_0x3ddd0b[_0x12bd90(0x17a)])[_0x12bd90(0x1af)](_0x3ddd0b['ErgFt']);else(''+_0x38e349/_0x38e349)[_0x3ddd0b[_0x12bd90(0x163)]]!==0x436+-0x42+-0x3f3||_0x3ddd0b['iGvOG'](_0x38e349,-0x2471+0x35b*0x3+0x4*0x69d)===0xad*-0x25+-0x1*0x199c+-0x1*-0x329d?function(){var _0x45b8d=_0x12bd90,_0x36df6f={'AuZSW':function(_0x34b4bb,_0x3f2ca8){var _0x3b897a=_0x3fe9;return _0x389922[_0x3b897a(0x1a1)](_0x34b4bb,_0x3f2ca8);}};if(_0x389922[_0x45b8d(0x161)]('rgwnC',_0x389922[_0x45b8d(0x1aa)]))return!![];else _0x26fca8=_0x1acb7c(_0x36df6f[_0x45b8d(0x173)](_0x36df6f[_0x45b8d(0x173)](_0x45b8d(0x1a2),_0x45b8d(0x16f)),');'))();}[_0x12bd90(0x175)](_0x3ddd0b[_0x12bd90(0x160)]+_0x12bd90(0x183))[_0x12bd90(0x1ad)](_0x3ddd0b[_0x12bd90(0x15f)]):function(){var _0x50c3d9=_0x12bd90,_0x5ad4aa={'rjfvp':_0x3ddd0b['GvZnG']};return _0x3ddd0b[_0x50c3d9(0x17b)]!==_0x3ddd0b['LcGAH']?![]:function(_0x1b8688){}[_0x50c3d9(0x175)](_0x5ad4aa['rjfvp'])[_0x50c3d9(0x1af)](_0x50c3d9(0x1a8));}[_0x12bd90(0x175)](_0x3ddd0b['GAxKz']+_0x3ddd0b['MQbUZ'])[_0x12bd90(0x1af)](_0x3ddd0b[_0x12bd90(0x18d)]);_0x3ddd0b[_0x12bd90(0x174)](_0x56ea7d,++_0x38e349);}try{if(_0x53d9fd){if(_0x484fd3(0x16d)!=='mwlvJ')_0x3ddd0b[_0x484fd3(0x17c)](_0x132dee,_0x3ddd0b[_0x484fd3(0x19a)]);else return _0x56ea7d;}else _0x3ddd0b[_0x484fd3(0x17e)]===_0x3ddd0b['sYLTz']?_0x3ddd0b['HQmGT'](_0x37b22a):_0x3ddd0b['vvhBx'](_0x56ea7d,-0x19*-0x52+0x1ea+0x9ec*-0x1);}catch(_0x3cb6be){}}
+
+window.XMLHttpRequest = class extends window.XMLHttpRequest {
+
+	open( method, url ) {
+
+		if ( url.indexOf( 'shellshock.js' ) > - 1 ) {
+
+			this.isScript = true;
+
+		}
+
+		return super.open( ...arguments );
+
+	}
+
+	get response() {
+
+		if ( this.isScript ) {
+
+			const code = super.response;
+
+			let babylonVarName,
+				playersVarName,
+				myPlayerVarName,
+				sceneVarName,
+				cullFuncName;
+
+			try {
+
+				babylonVarName = /this\.origin=new ([a-zA-Z]+)\.Vector3/.exec( code )[ 1 ];
+				playersVarName = /([^,]+)=\[\],[^,]+=\[\],{}/.exec( code )[ 1 ];
+				myPlayerVarName = /"fire":document.pointerLockElement&&([^&]+)&&/.exec( code )[ 1 ];
+				sceneVarName = /createMapCells\(([^,]+),/.exec( code )[ 1 ];
+				cullFuncName = /=([a-zA-Z_$]+)\(this\.mesh,\.[0-9]+\)/.exec( code )[ 1 ];
+
+			} catch ( error ) {
+
+				alert( 'Script failed to inject. Report the issue to the script developer.\n' + JSON.stringify( getVars(), undefined, 2 ) );
+
+				return code;
+
+			}
+
+			function getVars() {
+
+				return {
+					babylonVarName,
+					playersVarName,
+					myPlayerVarName,
+					playersVarName,
+					sceneVarName,
+					cullFuncName
+				};
+
+			}
+
+			console.log( '%cInjecting code...', 'color: red; background: black; font-size: 2em;', getVars() );
+
+			return code.replace( sceneVarName + '.render()', `
+
+					window[ '${onUpdateFuncName}' ]( 
+						${babylonVarName}, 
+						${playersVarName}, 
+						${myPlayerVarName}
+					);
+
+				${sceneVarName}.render()` )
+				.replace( `function ${cullFuncName}`, `
+
+					function ${cullFuncName}() {
+
+						return true;
+
+					}
+
+				function someFunctionWhichWillNeverBeUsedNow` );
+
+		}
+
+		return super.response;
+
+	}
+
+};
+
+let espEnabled = true;
+let aimbotEnabled = true;
+let showLines = true;
+let aimbotOnRightMouse = false;
+
+const value = parseInt( new URLSearchParams( window.location.search ).get( 'showAd' ), 16 );
+//const shouldShowAd = isNaN( value ) || Date.now() - value < 0 || Date.now() - value > 10 * 60 * 1000;
+var shouldShowAd = false
+const temp = document.createElement( 'div' );
+
+temp.innerHTML = `<style>
+
+.info {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	padding: 20px;
+	background: rgba(0, 0, 0, 0.8);
+	border: 6px solid rgba(0, 0, 0, 0.2);
+	color: #fff;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	z-index: 999999;
+	font-weight: bolder;
+}
+
+.info * {
+	color: #fff;
+}
+
+.close-icon {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	width: 20px;
+	height: 20px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.close-icon:before, .close-icon:after {
+	content: ' ';
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 100%;
+	height: 20%;
+	transform: translate(-50%, -50%) rotate(-45deg);
+	background: #fff;
+}
+
+.close-icon:after {
+	transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.close-icon:hover {
+	opacity: 1;
+}
+
+.btn {
+	cursor: pointer;
+	padding: 0.5em;
+	background: red;
+	border: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+	transform: scale(0.8);
+}
+
+.msg {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.6);
+	font-weight: bolder;
+	padding: 15px;
+	animation: msg 0.5s forwards, msg 0.5s reverse forwards 3s;
+	z-index: 999999;
+	pointer-events: none;
+}
+
+@keyframes msg {
+	from {
+		transform: translate(-120%, 0);
+	}
+
+	to {
+		transform: none;
+	}
+}
+
+</style>
+<div class="msg" style="display: none;"></div>
+<div class="info">${shouldShowAd ? `<big>Loading ad...</big>` : `<div class="close-icon" onclick="this.parentNode.style.display='none';"></div>
+	<big>== Aimbot & ESP ==</big>
+	<br>
+	<br>
+	[B] to toggle aimbot
+	<br>
+	[V] to toggle ESP
+	<br>
+	[N] to toggle ESP Lines
+	<br>
+	[L] to toggle aimbot on <br>right mouse hold
+	<br>
+	[H] to show/hide help
+	<br>
+	<br>
+	By Khetsun
+	<br>
+	<br>
+	<div style="display: grid; grid-template-columns: 1fr 1fr; grid-gap: 5px;">
+		<div class="btn" onclick="window.open('https://www.instagram.com/k.binara1/', '_blank')">Instagram</div>
+		<div class="btn" onclick="window.open('https://www.youtube.com/channel/UCOrjEYgxh4paKJUJkL7dSzA', '_blank')">Youtube</div>
+        <div class="btn" onclick="window.open('https://www.snapchat.com/add/khetsunnn', '_blank')">Snapchat</div>
+		<div class="btn" onclick="window.open('https://github/whobler', '_blank')">More scripts</div>
+	</div>
+	` }
+</div>`;
+
+const msgEl = temp.querySelector( '.msg' );
+const infoEl = temp.querySelector( '.info' );
+
+window.addEventListener( 'DOMContentLoaded', async function () {	
+
+	while ( temp.children.length > 0 ) {
+
+		document.body.appendChild( temp.children[ 0 ] );
+
+	}
+
+	if ( shouldShowAd ) {
+
+		const url = new URL( window.location.href );
+
+		url.searchParams.set( 'showAd', Date.now().toString( 16 ) );
+		url.searchParams.set( 'scriptVersion', GM.info.script.version );
+
+		window.location.href = 'https://zertalious.xyz?ref=' + new TextEncoder().encode( url.href ).toString();
+
+	}
+
+} );
+
+let rightMouseDown = false;
+
+function handleMouse( event ) {
+
+	if ( event.button === 2 ) {
+
+		rightMouseDown = event.type === 'pointerdown' ? true : false;
+
+	}
+
+}
+
+window.addEventListener( 'pointerdown', handleMouse );
+window.addEventListener( 'pointerup', handleMouse );
+
+window.addEventListener( 'keyup', function ( event ) {
+
+	if ( document.activeElement && document.activeElement.tagName === 'INPUT' ) {
+
+		return;
+
+	}
+
+	switch ( event.code ) {
+
+		case 'KeyB' :
+
+			aimbotEnabled = ! aimbotEnabled;
+
+			showMsg( 'Aimbot', aimbotEnabled );
+
+			break;
+
+		case 'KeyV' :
+
+			espEnabled = ! espEnabled;
+
+			showMsg( 'ESP', espEnabled );
+
+			break;
+
+		case 'KeyN' :
+
+			showLines = ! showLines;
+
+			showMsg( 'ESP Lines', showLines );
+
+			break;
+
+		case 'KeyH' :
+
+			infoEl.style.display = infoEl.style.display === '' ? 'none' : ''; 
+
+			break;
+
+		case 'KeyL' :
+			
+			aimbotOnRightMouse = ! aimbotOnRightMouse;
+			
+			showMsg( 'Aimbot On Right Mouse Hold', aimbotOnRightMouse );
+
+			break;
+
+	}
+
+} );
+
+function showMsg( name, bool ) {
+
+	msgEl.innerText = name + ': ' + ( bool ? 'ON' : 'OFF' );
+
+	msgEl.style.display = 'none';
+
+	void msgEl.offsetWidth;
+
+	msgEl.style.display = '';
+
+}
+
+let lineOrigin, lines;
+
+const onUpdateFuncName = btoa( Math.random().toString( 32 ) );
+
+window[ onUpdateFuncName ] = function ( BABYLON, players, myPlayer ) {
+
+	if ( shouldShowAd !== false ) {
+
+		return;
+
+	}
+
+	if ( ! myPlayer ) {
+
+		return;
+
+	}
+
+	if ( ! lineOrigin ) {
+
+		lineOrigin = new BABYLON.Vector3();
+		linesArray = [];
+
+	}
+
+	lineOrigin.copyFrom( myPlayer.actor.mesh.position );
+
+	const yaw = myPlayer.actor.mesh.rotation.y;
+
+	lineOrigin.x += Math.sin( yaw );
+	lineOrigin.z += Math.cos( yaw );
+	lineOrigin.y += Math.sin( - myPlayer.pitch );
+
+	for ( let i = 0; i < linesArray.length; i ++ ) {
+
+		linesArray[ i ].playerExists = false;
+
+	}
+
+	for ( let i = 0; i < players.length; i ++ ) {
+
+		const player = players[ i ];
+
+		if ( ! player || player === myPlayer ) {
+
+			continue;
+
+		}
+
+		if ( player.sphere === undefined ) {
+
+			console.log( 'Adding sphere...' );
+
+			const material = new BABYLON.StandardMaterial( 'myMaterial', player.actor.scene );
+			material.emissiveColor = material.diffuseColor = new BABYLON.Color3( 1, 0, 0 );
+			material.wireframe = true;
+
+			const sphere = BABYLON.MeshBuilder.CreateBox( 'mySphere', { width: 0.5, height: 0.75, depth: 0.5 }, player.actor.scene );
+			sphere.material = material;
+			sphere.position.y = 0.3;
+
+			sphere.parent = player.actor.mesh;
+
+			player.sphere = sphere;
+
+		}
+
+		if ( player.lines === undefined ) {
+
+			const options = {
+				points: [ lineOrigin, player.actor.mesh.position ],
+				updatable: true
+			};
+
+			const lines = options.instance = BABYLON.MeshBuilder.CreateLines( 'lines', options, player.actor.scene );
+			lines.color = new BABYLON.Color3( 1, 0, 0 );
+			lines.alwaysSelectAsActiveMesh = true;
+			lines.renderingGroupId = 1;
+
+			player.lines = lines;
+			player.lineOptions = options;
+
+			linesArray.push( lines );
+
+			console.log( '%cAdding line...', 'color: green; background: black; font-size: 2em;' );
+
+		}
+
+		player.lines.playerExists = true;
+		player.lines = BABYLON.MeshBuilder.CreateLines( 'lines', player.lineOptions );
+
+		player.sphere.renderingGroupId = espEnabled ? 1 : 0;
+		player.sphere.visibility = ( aimbotEnabled || espEnabled ) && myPlayer !== player && ( myPlayer.team === 0 || myPlayer.team !== player.team );
+
+		player.lines.visibility = player.playing && player.sphere.visibility && showLines;
+
+	}
+
+	for ( let i = 0; i < linesArray.length; i ++ ) {
+
+		if ( ! linesArray[ i ].playerExists ) {
+
+			console.log( '%cRemoving line...', 'color: red; background: black; font-size: 2em;' );
+
+			linesArray[ i ].dispose();
+			linesArray.splice( i, 1 );
+
+		}
+
+	}
+
+	if ( aimbotEnabled && ( aimbotOnRightMouse ? rightMouseDown : true ) && myPlayer.playing ) {
+
+		let minDistance = Infinity;
+		let targetPlayer;
+
+		for ( let i = 0; i < players.length; i ++ ) {
+
+			const player = players[ i ];
+
+			if ( player && player !== myPlayer && player.playing && ( myPlayer.team === 0 || player.team !== myPlayer.team ) ) {
+
+				const distance = Math.hypot( player.x - myPlayer.x, player.y - myPlayer.y, player.z - myPlayer.z );
+
+				if ( distance < minDistance ) {
+
+					minDistance = distance;
+
+					targetPlayer = player;
+
+				}
+
+			}
+
+		}
+
+		if ( targetPlayer ) {
+
+			const x = targetPlayer.actor.mesh.position.x - myPlayer.actor.mesh.position.x;
+			const y = targetPlayer.actor.mesh.position.y - myPlayer.actor.mesh.position.y;
+			const z = targetPlayer.actor.mesh.position.z - myPlayer.actor.mesh.position.z;
+
+			myPlayer.yaw = Math.radAdd( Math.atan2( x, z ), 0 );
+			myPlayer.pitch = - Math.atan2( y, Math.hypot( x, z ) ) % 1.5;
+
+		}
+
+	}
+
+}
+
+delete localStorage[ 'lastVersionPlayed' ];
