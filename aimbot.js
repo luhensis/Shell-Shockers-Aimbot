@@ -254,7 +254,7 @@ temp.innerHTML = `<style>
 		<div class="btn" onclick="window.open('https://www.instagram.com/luh.ensis_/', '_blank')">Instagram</div>
 		<div class="btn" onclick="window.open('https://www.youtube.com/channel/UCOrjEYgxh4paKJUJkL7dSzA', '_blank')">Youtube</div>
         <div class="btn" onclick="window.open('https://www.snapchat.com/add/khetsunnn', '_blank')">Snapchat</div>
-		<div class="btn" onclick="window.open('https://github/luhensis', '_blank')">More scripts</div>
+		<div class="btn" onclick="window.open('https://github.com/luhensis', '_blank')">More scripts</div>
 	</div>
 	` }
 </div>`;
