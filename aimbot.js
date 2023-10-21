@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Shellshock.IO Aimbot & ESP
 // @namespace    http://tampermonkey.net/
-// @version      0.2.1
+// @version      0.2.2
 // @description  Locks aim to the nearest player in shellshock.io. Comes with an ESP too. Press B, V, N, L to toggle aimbot, esp, esp lines, aimbot on right mouse hold.
-// @author       Khetsun
+// @author       luh.ensis_
 // @match        *://shellshock.io/*
 // @match        *://algebra.best/*
 // @match        *://algebra.vip/*
